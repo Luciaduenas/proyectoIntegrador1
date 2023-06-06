@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candy - Register</title>
+    <link rel="icon" type="image/x-icon" href="Assets/Logo/candyheart.svg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="navbar-home">
+        <img src="Assets/Logo/Candy logo.svg" alt="candy logo">
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li><a href="./index.html">Home</a></li>
+
+            </ul>
+            <!-- <img class="cart-icon" src="Assets/graphics/carticon.svg" alt="Cart"> -->
+            <label for="cart-toggle" class="cart-label">
+                <img src="Assets/graphics/carticon.svg" alt="Cart" class="cart-icon">
+            </label>
+            <input type="checkbox" id="cart-toggle">
+
+        <!-- Cart Menu -->
+        
+        <div class="cartmenu">
+            <h2>Sweet Selections</h2>
+            <div class="cart-selection">
+                <div class="cart-item">
+                    <img src="Assets/images/pexels-karley-saagi-3604656.jpg" alt="Enchanting Unicorn Sprinkle Donut Delights">
+                    <div class="cart-item-info">
+                      <h4>Enchanting Unicorn Sprinkle Donut Delights</h4>
+                      <p class="portion">Box x6u.</p>
+                      <p class="price"><span>20</span>usd</p>
+                    </div>
+                    <div class="quantity">
+                         <span class="minus hoverbtn clickedbtn ">-</span>
+                         <span class="qty">1</span>
+                         <span class="plus hoverbtn clickedbtn ">+</span>
+                    </div>
+                 </div>
+                 <div class="cart-item">
+                    <img src="Assets/images/pexels-nataliya-vaitkevich-5868946.jpg" alt="Candy Cane Bliss: Festive Peppermint Delights">
+                    <div class="cart-item-info">
+                      <h4>Candy Cane Bliss: Festive Peppermint Delights</h4>
+                      <p class="portion">Box x15u.</p>
+                      <p class="price"><span>20</span>usd</p>
+                    </div>
+                    <div class="quantity">
+                        <span class="minus hoverbtn clickedbtn ">-</span>
+                        <span class="qty">1</span>
+                        <span class="plus hoverbtn clickedbtn ">+</span>
+                   </div>
+                 </div>
+                 <div class="cart-line"></div>
+                 <div class="cart-total">
+                    <h4>Total</h4>
+                    <p class="price-total"><span>40</span>usd</p>
+                    </div>
+                <div class="cart-buttons">
+                    <button class="hoverbtn clickedbtn chekout">Checkout</button>
+                    <button class="hoverbtn clickedbtn  viewcart">View cart</button>
+                </div>   
+        </div>  
+        </div>    
+
+        </nav> 
+    
+
+    
+    
+    </header>
+
+    <!-- Login -->
+    <main>
+        <section id="register">
+            <div class="container-register">
+                <h2>Register</h2>
+                <form class="form" action="register">
+                    <label for="username"></label>
+                    <input type="text" name="username" placeholder="Username"id="username">
+                    <label for="password"></label>
+                    <input type="password" placeholder="Password">
+                    <input class="hoverbtn clickedbtn submit-btn" type="submit" value="Register">
+                </form>
+                <div class="alternative">
+                    <p>Already have an account?</p>
+                    <a class="hoverbtn clickedbtn login" href="./login.html">Log in</a>
+                </div>
+                
+            </div>
+            <div class="btns">
+                <a class="hoverbtn clickedbtn register" href="./index.html">Go Back</a>
+        </div>
+        </section>
+    </main>
+
+</body>   

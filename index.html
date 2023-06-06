@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candy</title>
+    <link rel="icon" type="image/x-icon" href="Assets/Logo/candyheart.svg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="navbar-home">
+        <img src="Assets/Logo/Candy logo.svg" alt="candy logo">
+        <nav class="navbar">
+            <label for="menu-toggle" class="menu-label">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <input type="checkbox" id="menu-toggle">
+            <ul class="nav-list">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#sendlove">Send love</a></li>
+                <li><a href="#bestsellers">Bestsellers</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <!-- <img class="cart-icon" src="Assets/graphics/carticon.svg" alt="Cart"> -->
+            <label for="cart-toggle" class="cart-label">
+                <img src="Assets/graphics/carticon.svg" alt="Cart" class="cart-icon">
+            </label>
+            <input type="checkbox" id="cart-toggle">
+
+        <!-- Cart Menu -->
+        
+        <div class="cartmenu">
+            <h2>Sweet Selections</h2>
+            <div class="cart-selection">
+                <div class="cart-item">
+                    <img src="Assets/images/pexels-karley-saagi-3604656.jpg" alt="Enchanting Unicorn Sprinkle Donut Delights">
+                    <div class="cart-item-info">
+                      <h4>Enchanting Unicorn Sprinkle Donut Delights</h4>
+                      <p class="portion">Box x6u.</p>
+                      <p class="price"><span>20</span>usd</p>
+                    </div>
+                    <div class="quantity">
+                         <span class="minus hoverbtn clickedbtn ">-</span>
+                         <span class="qty">1</span>
+                         <span class="plus hoverbtn clickedbtn ">+</span>
+                    </div>
+                 </div>
+                 <div class="cart-item">
+                    <img src="Assets/images/pexels-nataliya-vaitkevich-5868946.jpg" alt="Candy Cane Bliss: Festive Peppermint Delights">
+                    <div class="cart-item-info">
+                      <h4>Candy Cane Bliss: Festive Peppermint Delights</h4>
+                      <p class="portion">Box x15u.</p>
+                      <p class="price"><span>20</span>usd</p>
+                    </div>
+                    <div class="quantity">
+                        <span class="minus hoverbtn clickedbtn ">-</span>
+                        <span class="qty">1</span>
+                        <span class="plus hoverbtn clickedbtn ">+</span>
+                   </div>
+                 </div>
+                 <div class="cart-line"></div>
+                 <div class="cart-total">
+                    <h4>Total</h4>
+                    <p class="price-total"><span>40</span>usd</p>
+                    </div>
+                <div class="cart-buttons">
+                    <button class="hoverbtn clickedbtn chekout">Checkout</button>
+                    <button class="hoverbtn clickedbtn  viewcart">View cart</button>
+                </div>   
+        </div>  
+        </div>    
+
+        </nav> 
+    
+
+    
+    
+    </header>
+    <!-- MAIN -->
+    <main>
+    <!-- HOME -->
+    <section id="Home">
+        <div class="home-container">
+        <div class="Home__text">
+            <h1>Make it sweet with <span>Candy</span></h1>
+            <p>With our modern and cheerful service, sending a sweet surprise has never been easier.</p>
+        </div>
+        <div class="Home__images">
+           
+                <img class="photo photo2" src="Assets/images/pexels-karley-saagi-2063004.jpg" alt="heart shaped lollipos">
+            
+                <img class="photo photo1" src="Assets/images/pexels-karley-saagi-2801980.jpg" alt="pink donut">
+
+        </div>
+    </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <div class="about__text">
+            <p>Candy store is a whimsical wonderland, where we specialize in sending delectable candies as delightful gifts. 
+                Whether you're celebrating a birthday, expressing gratitude, or simply spreading happiness, our team will curate the perfect candy assortment and package it with love. Discover the magic of gifting sweetness with Candy and bring smiles to your loved ones, one candy at a time!</p>
+        </div>
+
+    </section>
+
+    <!-- SEND LOVE -->
+    <section id="sendlove">
+        <div class="sendlove__container">
+            <h2>Send love in 3 easy steps</h2>
+            <div class="sendlove-card-container">
+                <div class="card card1">
+                    <h3>1.</h3>
+                    <h4>Chose your candy delight</h4>
+                    <p>Explore our delightful range of candies and select your favorites or let us create a custom assortment for your special someone.</p>
+                </div>
+                <div class="card card2">
+                    <h3>2.</h3>
+                    <h4>Personalize and package</h4>
+                    <p>Add a heartfelt message or customized note, and our dedicated team will carefully hand-pack your candies in a beautifully designed gift box.
+                    </p>
+                </div>
+                <div class="card card3">
+                    <h3>3.</h3>
+                    <h4>Send smiles with a click</h4>
+                    <p>Sit back, relax, and let us handle the rest as we swiftly deliver your candy gift, ensuring it arrives with care to bring joy to your loved ones.
+                    </p>
+                </div>
+                
+                </div>
+            <div class="send__btn-container">
+                    <h4>Step into our online candy wonderland shop</h4>
+                    <div class="btns">
+                        <a class="hoverbtn clickedbtn register" href="./register.html">Register</a>
+                        <a class="hoverbtn clickedbtn login" href="./login.html">Login</a>
+                </div>        
+            </div>
+           
+        </div>
+    </section>
+
+    <!-- BESTSELLERS -->
+    <section id="bestsellers">
+        <div class="bestsellers__container">
+            <div class="bestsellers__title">
+            <h2>Sweetest Bestsellers</h2>
+            <p>Indulge in Our Most Ordered Treats</p>
+        </div>
+            <div class="bestsellers__card-container">
+                <div class="productcard">
+                    <img src="Assets/images/pexels-karley-saagi-3604656.jpg" alt="Enchanting Unicorn Sprinkle Donut Delights">
+                    <h4>Enchanting Unicorn Sprinkle Donut Delights</h4>
+                    <div class="portion-info">
+                        <p class="portion">Box x6u.</p>
+                        <p class="price"><span>20</span>usd</p>
+                    </div>
+                    <button class="hoverbtn clickedbtn">Add to Cart</button>
+                </div>
+                <div class="productcard">
+                    <img src="Assets/images/pexels-lucas-andrade-9395562.jpg" alt="Velvet Euphoria: Heavenly Red Velvet Cake Experience">
+                    <h4>Velvet Euphoria: Heavenly Red Velvet Cake Experience</h4>
+                    <div class="portion-info">
+                        <p class="portion">Portion x1u.</p>
+                        <p class="price"><span>15</span>usd</p>
+                    </div>
+                    <button class="hoverbtn clickedbtn">Add to Cart</button>
+                </div>
+                <div class="productcard">
+                    <img src="Assets/images/pexels-jill-wellington-3553703.jpg" alt="Heartfelt Delights: Love-infused Heart-Shaped Macarons Collection">
+                    <h4>Love-infused Heart-Shaped Macarons Collection</h4>
+                    <div class="portion-info">
+                        <p class="portion">Box x15u.</p>
+                        <p class="price"><span>30</span>usd</p>
+                    </div>
+                    <button class="hoverbtn clickedbtn">Add to Cart</button>
+                </div>
+                <div class="productcard">
+                    <img src="Assets/images/pexels-nataliya-vaitkevich-5868946.jpg" alt="Candy Cane Bliss: Festive Peppermint Delights">
+                    <h4>Candy Cane Bliss: Festive Peppermint Delights</h4>
+                    <div class="portion-info">
+                        <p class="portion">Pack x15u.</p>
+                        <p class="price"><span>20</span>usd</p>
+                    </div>
+                    <button class="hoverbtn clickedbtn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="promo">
+            <h4>Enjoy a complimentary deluxe candy gift box for orders over $50 USD</h4>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <div class="contactus">
+          <div class="contactcontainer">
+                <div class="contact__title">
+                    <h2>Contact us</h2>
+                    <p> Whether you need assistance in selecting the perfect candy gift or require information about our services, we are just a click away.</p>
+                </div>
+                <form class="form" action="contact">
+                    <label for="name"></label>
+                    <input type="text" name="name" placeholder="Name"id="name">
+                    <label for="mail"></label>
+                    <input type="email" name="email" placeholder="e-mail" id="email">
+                    <textarea name="subject" id="subject" cols="30" rows="10" placeholder="Share your thoughts, questions, or sweet cravings with us - we're eager to hear from you, so don't hold back and write here!"></textarea>
+                    <input class="hoverbtn clickedbtn submit-btn" type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+        <div class="store">
+            <div class="storeinfo">
+                <div class="store__title">
+                    <h2>Visit our Store</h2>
+                    <p>Here is where the magic happens!</p>
+                </div>
+                <div class="store__adress">
+                    <p> <i class="fa-solid fa-location-dot"></i> 183 W 10th St, New York, NY 10014, US</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.256757327605!2d-74.00503658459442!3d40.734375479329486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2599467e10077%3A0xcf91457151c991d9!2s183%20W%2010th%20St%2C%20New%20York%2C%20NY%2010014%2C%20EE.%20UU.!5e0!3m2!1ses!2sar!4v1685407608733!5m2!1ses!2sar"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    </main>
+    
+    <!-- FOOTER -->
+    <footer>
+        <div class="social">
+            <h4>Connect with us!</h4>
+            <div class="social-links">
+            <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+           <a href="#" target="_blank"> <i class="fa-brands fa-facebook"></i></a>
+            <a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        </div>
+        <div class="copyright">
+            <p>© 2023 Candy. All rights reserved. Designed with <i class="fa-solid fa-heart"></i> by Lucía Dueñas</p>
+        
+    </footer>
+</body>
+</html>
