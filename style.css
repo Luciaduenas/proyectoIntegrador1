@@ -826,19 +826,23 @@ html{
     from {
         transform: rotate(45deg);
         transform-origin: 100% 0;
+        opacity: 0;
     }
     to {
         transform: rotate(10deg);
+        opacity: 1;
     }
 }
 
 @keyframes rotate2 {
     from {
         transform: rotate(25deg);
-        transform-origin: 100% 0%;
+        transform-origin: 100% 50%;
+        opacity: 0;
     }
     to {
         transform: rotate(15deg);
+        opacity: 1;
     }
 }
 
