@@ -835,7 +835,7 @@ html{
 @keyframes rotate2 {
     from {
         transform: rotate(25deg);
-        transform-origin: 100% 50%;
+        transform-origin: 100% 0%;
     }
     to {
         transform: rotate(15deg);
