@@ -582,7 +582,7 @@ main {
  /* Contact us */
 .contactus{
     width: 50%;
-    height: 450px;
+    height: 470px;
     background-color: var(--cream);
     display: flex;
     flex-direction: column; 
@@ -625,27 +625,37 @@ main {
     display: flex;
     flex-direction: column;
     gap: 5px;
-    width: 70%;
+    width: 80%;
 }
 
 .form ::placeholder {
     color: var(--pink);
-    font-size: 14px;
+    font-size: 18px;
     font-style: italic;
     font-weight: 400;
     padding: 10px;
 }
 
 .form input{
-    
     background-color: var(--bluesoft);
     border: 1px solid var(--pink);
     border-radius: 1rem;
+    font-size: 18px;
+    padding: 10px;
     /* box-shadow: #ff8ea3 2px 2px 0 0 ; */
+}
+
+.form input[type=text],
+input[type=email],
+input[type=password] {
+    color: var(--pink);
+    padding: 10px;
+    font-size: 18px;
 }
 
 .form textarea{
     background-color: var(--pinksoft);
+    max-height: 35%;
     border: 1px solid var(--pink);
     border-radius: 1rem;
     /* box-shadow: #ff8ea3 2px 2px 0 0 ; */
@@ -653,16 +663,16 @@ main {
 
 .submit-btn{
     width: fit-content;
-    padding: 0 10px;
-    font-size: 14px;
+    padding: 0 5px;
+    font-size: 20px;
     font-family: pacifico;
     color: var(--pink);
-
 }
+
 /* visit our store */
 .store{
     width: 50%;
-    height: 450px;
+    height: 470px;
     background-color: var(--tangerine);
     display: flex;
     flex-direction: column; 
@@ -921,7 +931,7 @@ html{
     justify-content: space-between;
     align-items: center;
     gap: 10px;
-    font-size: 10px;
+    font-size: 12px;
     color: var(--textgrey);
     font-style: italic;
 
@@ -992,6 +1002,7 @@ html{
 
     .contactus{
         width: 100%;
+        height: auto;
         text-align: center;
         align-items: center;
         justify-content: center;
